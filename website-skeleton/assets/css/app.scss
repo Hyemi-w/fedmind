@@ -2,5 +2,9 @@
 @import "vars";
 
 body {
-    background-color: lightgray;
+    background-color: white;
+}
+
+.image {
+    background-image: url("/build/images/obegital-banner.jpg");
 }
