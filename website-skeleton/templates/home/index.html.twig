@@ -3,8 +3,46 @@
 {% block title %}FEDMIND{% endblock %}
 
 {% block body %}
-    <section>
-        <div class="image">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">FEDMIND</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">La méthode<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nos engagements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">OBEGITAL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Annuaire Santé</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="banner">
+        <div>
+            <img src="{{ asset('build/presentation-obegital.jpg') }}" alt="telephone obegital methode presentation"
+                 class="image">
         </div>
     </section>
+    <section class="method row">
+        <button type="button" class="col-2 btn btn-light">En savoir plus</button>
+        <h2 class="method-title col-4">La méthode</h2>
+        <p class="method-text col-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in fermentum tortor. Integer urna dui,
+        tristique et ultrices vel, rhoncus nec augue. Vivamus venenatis, massa a tristique aliquet, tortor augue
+        condimentum mauris, vel eleifend nunc ante nec tellus.
+        <div class="colored-square"></div>
+    </section>
+    <hr>
+
 {% endblock %}
