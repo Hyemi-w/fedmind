@@ -44,7 +44,14 @@ body {
     }
 }
 .box1 {
-    width: 250px;
+    width: 100px;
+    p{
+        font-size: 0.7em;
+    }
+    .logo {
+        border-radius: 50%;
+        max-width: 100px;
+    }
 }
 .phone{
     //position: absolute;
