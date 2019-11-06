@@ -3,6 +3,8 @@
 
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .image {
@@ -18,31 +20,32 @@ body {
 }
 
 .method {
-    margin-top: 5vh;
-    .colored-square {
-        position: absolute;
-        margin-left: 210px;
-        width: 400px;
+    margin: 5vh 0 5vh 0;
+    .container-div {
         height: 150px;
-        background-color: #0c5460;
-        opacity: 0.6;
+        .row-div {
+            max-height: 5vh;
+        }
+        .colored-square {
+            position: absolute;
+            background-color: #0c5460;
+            width: 400px;
+            height: 150px;
+            opacity: 0.6;
+        }
     }
-    .method-title {
-        z-index: 2;
-        text-align: center;
-        margin-top: 5vh;
-        margin-left: 150px;
+}
+
+.method-complete {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    .logo {
+        border-radius: 50%;
     }
-    .method-text {
-        z-index: 4;
-        max-width: 500px;
-        margin-top: 15px;
-    }
-    button {
-        z-index: 1;
-        position: absolute;
-        text-align: center;
-        margin-top: 15vh;
-        margin-left: 250px;
-    }
+}
+.box1 {
+    width: 250px;
+}
+.phone{
+    //position: absolute;
 }
