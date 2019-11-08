@@ -3,6 +3,7 @@
 {% block title %}FEDMIND{% endblock %}
 
 {% block body %}
+    {# NAVBAR #}
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">FEDMIND</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -29,6 +30,8 @@
             </ul>
         </div>
     </nav>
+    {# /NAVBAR #}
+    {# BANNER #}
     <section class="banner">
         <div>
             <img src="{{ asset('build/presentation-obegital.jpg') }}" alt="telephone obegital methode presentation"
@@ -44,7 +47,9 @@
                 tristique et ultrices vel, rhoncus nec augue.</p>
         </div>
     </section>
+    {# /BANNER #}
     <hr>
+    {# 4 ESSENTIALS POINTS OF METHOD #}
     <section class="container method-complete mt-5 mb-5">
         <div class="row justify-content-around">
             <div class="col-2">
@@ -73,7 +78,9 @@
             </div>
         </div>
     </section>
+    {# /4 ESSENTIALS POINTS OF METHOD #}
     <section class="pt-4 pb-5 obegital-introduction">
+        {# INTRODUCTION OBEGITAL #}
         <div class="container">
             <h2 class="text-center mb-4">OBEGITAL</h2>
             <div class="row justify-content-center">
@@ -126,6 +133,8 @@
                     Vivamus feugiat elit lorem, eu porttitor ante ultrices id</p>
             </div>
         </div>
+        {# /INTRODUCTION OBEGITAL #}
+        {# INTRODUCTION OBEGITAL PRO #}
         <div class="introduction-obegital-pro">
             <h2 class="text-center mb-5 mt-4">OBEGITAL <span>PRO</span></h2>
             <div class="row justify-content-center">
@@ -142,7 +151,9 @@
                 </p>
             </div>
         </div>
+        {# /INTRODUCTION OBEGITAL PRO #}
     </section>
+    {# PARTNERS #}
     <section>
         <h2 class="text-center mt-5 mb-5">Ils nous soutiennent</h2>
         <div class="row justify-content-center">
@@ -151,4 +162,5 @@
             {% endfor %}
         </div>
     </section>
+    {# /PARTNERS #}
 {% endblock %}
