@@ -2,7 +2,7 @@
 @import "vars";
 
 body {
-    background-color: white;
+    background-color: $bg-color;
     margin: 0;
     padding: 0;
 }
@@ -31,7 +31,7 @@ body {
 
         .colored-square {
             position: absolute;
-            background-color: #0c5460;
+            background-color: $primary-color;
             width: 400px;
             height: 150px;
             opacity: 0.6;
