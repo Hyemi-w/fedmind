@@ -21,11 +21,14 @@ body {
 
 .method {
     margin: 5vh 0 5vh 0;
+
     .container-div {
         height: 150px;
+
         .row-div {
             max-height: 5vh;
         }
+
         .colored-square {
             position: absolute;
             background-color: #0c5460;
@@ -39,20 +42,23 @@ body {
 .method-complete {
     margin-top: 5vh;
     margin-bottom: 5vh;
+
     .logo {
         border-radius: 50%;
     }
 }
-.box1 {
-    width: 100px;
-    p{
-        font-size: 0.7em;
+
+.obegital-introduction {
+    .box1 {
+        width: 100px;
+
+        p {
+            font-size: 0.8em;
+        }
+
+        .logo {
+            border-radius: 50%;
+            max-width: 100px;
+        }
     }
-    .logo {
-        border-radius: 50%;
-        max-width: 100px;
-    }
-}
-.phone{
-    //position: absolute;
 }
