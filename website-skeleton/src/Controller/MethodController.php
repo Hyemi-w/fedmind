@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class MethodController extends AbstractController
 {
     /**
-     * @Route("/method", name="method")
+     * @Route("/methode", name="method")
      */
     public function index()
     {
