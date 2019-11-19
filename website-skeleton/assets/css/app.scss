@@ -1,6 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 @import "vars";
 
+@mixin p {
+    font-size: 0.8em;
+}
+
+
 body {
     background-color: $bg-color;
     margin: 0;
@@ -52,11 +57,7 @@ body {
     background-color: $secondary-bg-color;
     .box1 {
         width: 100px;
-
-        p {
-            font-size: 0.8em;
-        }
-
+        @include p();
         .logo {
             border-radius: 50%;
             max-width: 100px;
@@ -68,4 +69,12 @@ body {
     span {
         font-weight: bold;
     }
+}
+
+/* PAGE METHOD */
+
+.card-solution {
+    background-color: $secondary-bg-color;
+    padding: 25px;
+    @include p();
 }
