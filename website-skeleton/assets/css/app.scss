@@ -73,8 +73,25 @@ body {
 
 /* PAGE METHOD */
 
+.colored-square {
+    position: absolute;
+    background-color: $primary-color;
+    width: 400px;
+    height: 150px;
+    opacity: 0.6;
+}
+
 .card-solution {
     background-color: $secondary-bg-color;
     padding: 25px;
     @include p();
+}
+
+.testimony {
+    background-color: $secondary-bg-color;
+    padding: 30px;
+}
+
+.method-program {
+    background-color: $secondary-bg-color;
 }
