@@ -95,3 +95,10 @@ body {
 .method-program {
     background-color: $secondary-bg-color;
 }
+
+footer {
+    p {
+        @include p();
+    }
+    background-color: $secondary-bg-color;
+}
