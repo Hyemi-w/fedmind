@@ -18,7 +18,7 @@
         </div>
     </section>
     <section class="container mb-5">
-        <h2 class="text-center mt-5 mb-5">Ils nous font confiance</h2>
+        <h3 class="text-center mt-5 mb-5">Ils nous font confiance</h3>
         <table class="table table text-center table-striped">
             <thead>
             <tr class="table-secondary">
@@ -49,6 +49,37 @@
             </tr>
             </tbody>
         </table>
+    </section>
+    <section class="contact container">
+        <div class="row justify-content-center">
+            <h3 class="text-center col-6">Vous êtes professionnel de santé et vous souhaitez nous contacter ?</h3>
+        </div>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="names">Nom & Prénom</label>
+                    <input type="text" class="form-control" id="names">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="subject">Sujet</label>
+                    <input type="text" class="form-control" id="subject">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="message">Message</label>
+                    <input type="text" class="form-control" id="message">
+                </div>
+            </div>
+        </form>
     </section>
     {% include '_footer.html.twig' %}
 {% endblock %}
