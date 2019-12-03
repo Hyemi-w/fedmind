@@ -20,9 +20,21 @@ body {
     height: 70vh;
 }
 
+// ---------------- NAVBAR -----------------//
+
+.navbar {
+    .navbar-brand {
+        img {
+            max-width: 130px;
+        }
+    }
+}
+
 .nav-item {
     margin-left: 50px;
 }
+
+// --------------- /END NAVBAR ------------------//
 
 .method {
     margin: 5vh 0 5vh 0;
