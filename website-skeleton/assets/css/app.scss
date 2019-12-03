@@ -1,8 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 @import "vars";
+@import url('https://fonts.googleapis.com/css?family=Muli:200&display=swap');
 
 @mixin p {
     font-size: 0.8em;
+}
+
+@mixin navlink {
+    font-family: 'Muli', sans-serif;
+    font-size: 1.2em;
 }
 
 
@@ -28,10 +34,10 @@ body {
             max-width: 130px;
         }
     }
-}
-
-.nav-item {
-    margin-left: 50px;
+    .nav-item {
+        margin-left: 50px;
+    }
+    @include navlink();
 }
 
 // --------------- /END NAVBAR ------------------//
