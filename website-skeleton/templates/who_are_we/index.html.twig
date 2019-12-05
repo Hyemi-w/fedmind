@@ -3,4 +3,14 @@
 {% block title %}{% endblock %}
 
 {% block body %}
+    <header>
+        {% include '_navbar.html.twig' %}
+        {% include '_banner.html.twig' %}
+        <nav class="nav-whoarewe row justify-content-center">
+            <a href="{{ path('who_are_we') }}#histoire">L'histoire de FEDMIND</a>
+            <a href="{{ path('who_are_we') }}#valeurs">Les valeurs de FEDMIND</a>
+            <a href="{{ path('who_are_we') }}#grosse">GROSSE et grossophobie</a>
+            <a href="{{ path('who_are_we') }}#obesesanonymes">Obèses Anonymes</a>
+        </nav>
+    </header>
 {% endblock %}
